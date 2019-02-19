@@ -6,10 +6,15 @@
 #
 #    http://shiny.rstudio.com/
 #
+# To run library(DT), Please ensure you have the latest shiny version 
+#
+# install.packages("devtools")
+# devtools::install_version("shiny", "1.2.0")
 
+# The R package DT provides an R interface to the JavaScript library DataTables. 
 library(DT)
-library(shiny)
 
+library(shiny)
 library(shinythemes)
 library(shinydashboard)
 
